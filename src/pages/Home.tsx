@@ -89,7 +89,7 @@ const Home = () => {
         <div className="flex flex-wrap gap-x-10 gap-y-4">
           {techStack.map(({ name, icon: Icon, hoverColor }) => (
             <div key={name} className="flex flex-col items-center text-xs">
-              <Icon className={`w-10 h-10 transition-transform duration-300 hover:scale-110 ${hoverColor} active:text-[#F7DF1E]`} />
+              <Icon className={`w-10 h-10 transition-transform duration-300 hover:scale-110 ${hoverColor}`} />
             </div>
           ))}
         </div>
@@ -110,23 +110,23 @@ const Home = () => {
       <Separator className="my-6" />
 
       <div className="flex justify-between">
-        <p className="flex gap-x-2 text-[#666] dark:text-[#C0C0C0] text-xl mb-4">
+        <p className="flex flex-3 gap-x-2 text-[#666] dark:text-[#C0C0C0] text-xl mb-4">
           🤝 Let's connect together
         </p>
-        <div className="flex flex-wrap justify-center gap-x-8 gap-y-4">
+        <div className="flex flex-1 justify-around">
           <a
             href="https://www.linkedin.com/in/khanh-d-chung/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin className="w-8 h-8 hover:text-[#0A66C2]"/>
+            <FaLinkedin className="w-8 h-8 hover:text-[#0A66C2] transition-transform duration-300 hover:scale-110"/>
           </a>
           <a
             href="https://github.com/craftzmask"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="w-8 h-8 hover:text-gray-400"/>
+            <FaGithub className="w-8 h-8 hover:text-gray-400 transition-transform duration-300 hover:scale-110"/>
           </a>
         </div>
       </div>
