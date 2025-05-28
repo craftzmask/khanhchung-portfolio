@@ -46,6 +46,12 @@ const Home = () => {
       link: "https://fedbridge.app/"
     },
     {
+      name: "Gitlet",
+      stack: ["Java", "JUnit 5", "CLI", "Serialization", "Data Structures"],
+      description: "A command-line Git version control system built in Java. Supports commits, branching, merging, and logging using custom serialization and DAG structures. This project is a part of CS 61B from UC Berkeley.",
+      link: "https://github.com/craftzmask/Gitlet"
+    },
+    {
       name: "Seatify",
       stack: ["Java", "Spring Boot", "Spring Security", "JPA", "MongoDB"],
       description: "An OpenTable-style reservation system with service-oriented design and secure authentication.",
