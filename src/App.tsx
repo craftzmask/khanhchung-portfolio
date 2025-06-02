@@ -4,7 +4,7 @@ import AnimatedRoutes from "./pages/sections/AnimationRoutes"
 
 function App() {
   return (
-    <div className="flex flex-col gap-y-5 max-w-[600px] m-auto p-4 verflow-y-scroll h-screen">
+    <div className="flex flex-col gap-y-5 max-w-[600px] m-auto p-4 verflow-y-scroll">
       <Nav />
       <AnimatedRoutes />
       <Footer />
