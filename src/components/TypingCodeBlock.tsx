@@ -54,7 +54,7 @@ const TypingCodeBlock = () => {
   }
 
   return (
-    <pre className="text-sm md:text-base font-mono">
+    <pre className="text-sm h-28 md:text-base font-mono">
       <code>{elements}</code>
     </pre>
   );
