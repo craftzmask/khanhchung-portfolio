@@ -13,6 +13,9 @@ const About = () => {
             specializing in <strong>Enterprise Platforms</strong> with a focus on <strong>Distributed Systems</strong> and <strong>Cloud Computing</strong>.
           </p>
           <p className="text-base">
+            I'm currently a 3x Frontend Engineer Intern at TikTok where I have been developing new features on Creator Search Insights (CSI)
+          </p>
+          <p className="text-base">
             I've completed the Full Stack Open program from <strong>University of Helsinki</strong>, with hands-on experience in <strong>React.js</strong>, <strong>Express.js</strong>, <strong>TypeScript</strong>, and <strong>PostgreSQL</strong>.
           </p>
           <p className="text-base">
