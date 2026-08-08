@@ -46,21 +46,27 @@ const Home = () => {
       link: "https://fedbridge.app/"
     },
     {
+      name: "Smart Car Service Platforms",
+      stack: ["React.js", "Express", "React Query", "TypeScript"],
+      description: "Frontend lead in the cloud-native IoT platform in a 4-member team for autonomous smart cars, supporting real-time audio-based surveillance and alerting",
+      link: "https://github.com/craftzmask/smart-car-cloud-services"
+    },
+    {
+      name: "MiniHttp",
+      stack: ["TypeScript", "node:net", "Bun Runtime"],
+      description: "HTTP server from scratch using TCP primitives in TypeScript/Node.js that can be capable of handling simple GET/POST requests, serving files and handling multiple concurrent connection",
+      link: "https://github.com/craftzmask/MiniServer"
+    },
+    {
       name: "Gitlet",
       stack: ["Java", "JUnit 5", "CLI", "Serialization", "Data Structures"],
       description: "A command-line Git version control system built in Java. Supports commits, branching, merging, and logging using custom serialization and DAG structures. This project is a part of CS 61B from UC Berkeley.",
       link: "https://github.com/craftzmask/Gitlet"
     },
     {
-      name: "Seatify",
-      stack: ["Java", "Spring Boot", "Spring Security", "JPA", "MongoDB"],
-      description: "An OpenTable-style reservation system with service-oriented design and secure authentication.",
-      link: "https://github.com/gopinathsjsu/team-project-20201-codecrafters"
-    },
-    {
       name: "DonutMix",
       stack: ["JavaScript", "React", "PWA", "Charka UI", "Mobile-first design"],
-      description: "An ingredient calculator built for a local donut shop owner based on donut type and quantity.",
+      description: "An ingredient calculator built for a local donut shop owner (my old boss) based on donut type and quantity.",
       link: "https://donutmix.netlify.app/"
     },
   ];
